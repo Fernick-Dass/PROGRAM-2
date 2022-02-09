@@ -1,0 +1,67 @@
+<html>
+ 
+<head>
+    <meta charset="utf-8" />
+    <title>Map Animation</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+    <link href="./CSS/style.css" rel="stylesheet" />
+</head> 
+
+  
+<body>
+    
+    
+
+    <h2>Dark Mode tutorial using HTML, CSS and JS</h2> 
+
+  
+
+     
+
+  
+
+
+
+    <div> 
+
+      <button onclick="darkMode()">Darkmode</button> 
+
+    </div> 
+    
+    <h1>GeeksForGeeks</h1> 
+
+    <h2>Dark Mode tutorial using HTML, CSS and JS</h2> 
+
+  
+
+    <p>GeeksForGeeks Sample Text</p> 
+
+  
+
+    <img src= 
+
+"https://media.geeksforgeeks.org/wp-content/uploads/20200122115631/GeeksforGeeks210.png"/> 
+
+    <div> 
+
+      <button onclick="darkMode()">Darkmode</button> 
+
+    </div> 
+<div id="menu">
+<input id="satellite-v9" type="radio" name="rtoggle" value="satellite" checked="checked">
+<input id="dark-v10" type="radio" name="rtoggle" value="dark">
+<label for="dark-v10" style="float: right; position: fixed;visibility: visible; color: aqua;">dark</label>
+</div>
+<div id="map"></div>
+    <div id="map"></div>
+    <div class="map-overlay top">
+        <button style="font-size: 2em" onclick="move()">
+            Show stops between  veerapandi pirivu To Sulur.
+        </button>
+    </div>
+    <script src="./JS/map.js"></script>
+</body>
+ 
+</html>
